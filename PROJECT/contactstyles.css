@@ -1,0 +1,89 @@
+h1 {
+    margin-bottom: 10px;
+  }
+  header {
+    background-color: #333;
+    color: #ac2679;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #239c29;
+  }
+  #contactOverlay{
+   height: 100%;
+   width: 100%;
+   background: linear-gradient(to bottom,#278e8e,#38ca8bf6);
+   display: flex;
+   justify-content: center;
+   align-items: center; 
+  }
+  #form{
+    margin-top: 50px;
+    width: 420px;
+    height: 500px;
+    /* border: solid white 1px; */
+    /* background-color: yellow; */
+    text-align: center;
+   color: rgb(19, 16, 16);
+   font-family: 'montserrat';
+   
+}
+#form form{
+    text-align: left;
+    margin-top: 40px;
+}
+input[type="text"],[type="email"],[type="number"]{
+    display: block;
+    width: 100%;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    border-bottom: solid 1px rgb(9, 9, 9);
+    outline: none;
+    color: rgb(18, 16, 16);
+    margin: 20px 0;
+
+}
+input[type="submit"]{
+    height: 50px;
+    width: 100%;
+  background-color: transparent;
+  border: solid 1px;
+  border-image-slice: 8;
+border-width: 3px;
+color: rgb(15, 12, 12);
+margin: 30px 0;
+
+letter-spacing: 4px;
+
+border-image-source: linear-gradient(to left, #c832db, #ec3a3a);
+}
+input[type="submit"]:hover{
+    border-image-source: linear-gradient(to right, #c832db, #ec3a3a);
+    font-weight: 500;
+    cursor: pointer;
+    }
+    small{
+        color: rgb(247, 234, 234);
+        margin-left: 15px;
+        font-size:50px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 20px;
+      }

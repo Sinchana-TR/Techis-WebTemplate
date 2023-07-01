@@ -1,0 +1,134 @@
+/* styles.css */
+
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1, h2, h3 {
+    margin-bottom: 10px;
+  }
+  
+  p {
+    margin-bottom: 20px;
+  }
+  
+  ol {
+    list-style-type: none;
+    margin-bottom: 20px;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #f1eeee;
+    border-radius: 5px;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #333;
+    color: #ac2679;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #239c29;
+  }
+  
+  /* Hero section styles */
+  #hero {
+    background-image: url("nature-solo-plants-leaves-wallpaper-preview.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color:rgb(229, 238, 235);
+    padding: 100px 0;
+  }
+  
+  /* About section styles */
+  #about {
+    background-color: #9f9696;
+    padding: 50px 0;
+  }
+  
+  /* Tips section styles */
+  #tips {
+    background-color: #9c8787;
+    padding: 50px 0;
+  }
+  
+  /* Resources section styles */
+  #resources {
+    background-color: #f2f2f2;
+    padding: 50px 0;
+  }
+  
+  /* Contact section styles */
+  #contact {
+    background-color: #fff;
+    padding: 50px 0;
+  }
+  
+  form input,
+  form textarea,
+  form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  
+  form button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+p{
+  font-weight: bold;
+}
+  h3{
+    font-size: 50px;
+  }
+  .phone{
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+  }
